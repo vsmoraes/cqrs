@@ -1,0 +1,29 @@
+{
+    "name": "vsmoraes/cqrs",
+    "description": "Little CQRS framework",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Vinicius Moraes",
+            "email": "vinicius@archlinux.com.br"
+        }
+    ],
+    "require": {
+        "symfony/event-dispatcher": "^4.0",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vsmoraes\\CQRS\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vsmoraes\\CQRS\\Tests\\": "tests/src/"
+        }
+    }
+
+}
